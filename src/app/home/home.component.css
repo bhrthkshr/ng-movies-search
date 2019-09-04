@@ -1,0 +1,25 @@
+.home_container {
+    background: #ddd;
+    min-height: 80vh;
+}
+
+.category {
+    text-align: center;
+    padding: 15px;
+}
+
+nav a {
+    margin-right: 10px;
+    padding: 5px;
+}
+
+nav a.active {
+    color: red;
+    background: #eee;
+}
+
+.card {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+}

@@ -1,0 +1,15 @@
+<div class="header">
+    <div class="search_bar_div">
+        <input class="search_bar" type="text" value="" [(ngModel)]="name" placeholder="Search for movies">
+        <button (click)="sendQuery(name)">Search</button>
+    </div>
+    <div class="nav_ele">
+        <nav>
+            <a [routerLink]="['/']" routerLinkActive="active" [routerLinkActiveOptions]="{exact:true}">Home</a>
+            <a [routerLink]="['/about']" routerLinkActive="active">About</a>
+            <a [routerLink]="['/form']" routerLinkActive="active">Register</a>
+            <a [routerLink]="['/login']" routerLinkActive="active">Login</a>
+        </nav>
+    </div>
+    <div style="clear: both;"></div>
+</div>

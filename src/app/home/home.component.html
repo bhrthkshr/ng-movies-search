@@ -1,0 +1,16 @@
+<div class="category">
+    <nav>
+        <a [routerLink]="['/top_rated']" routerLinkActive="active">Top Rated</a>
+        <a [routerLink]="['/upcoming']" routerLinkActive="active">Upcoming</a>
+        <a [routerLink]="['/now_playing']" routerLinkActive="active">Now Playing</a>
+        <a [routerLink]="['/popular']" routerLinkActive="active">Popular</a>
+    </nav>
+</div>
+
+<div>
+    <div *ngFor="let movie of moviesList" class="card">
+        <div class="container">
+            <app-movie-card [movie]="movie"></app-movie-card>
+        </div>
+    </div>
+</div>

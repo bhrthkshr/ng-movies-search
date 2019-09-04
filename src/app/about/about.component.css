@@ -1,0 +1,15 @@
+.abt_container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.abt_container h1 {
+    text-align: center;
+}
+
+p span {
+    color: #7152e4;
+    padding-right: 5px;
+}

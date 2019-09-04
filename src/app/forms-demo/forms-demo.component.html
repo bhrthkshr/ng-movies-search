@@ -1,0 +1,17 @@
+<div style="text-align: center">
+    <h4>Register</h4>
+</div>
+<hr>
+<div class="grouped">
+    <form [formGroup]="groupedForm" (ngSubmit)="onSubmit()">
+        <label for="">
+            First Name: 
+            <input type="text" formControlName="fname">
+        </label>
+        <label for="">
+            Last Name: 
+            <input type="text" formControlName="lname">
+        </label> <br><br>
+        <button type="submit">Submit</button>
+    </form>
+</div>

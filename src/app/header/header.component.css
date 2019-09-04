@@ -1,0 +1,28 @@
+.header {
+    background: #eeeeee;
+    margin: 0px;
+    padding: 10px 0px;
+}
+
+.search_bar_div {
+    text-align: center;
+    width: 80%;
+    float: left;
+}
+
+.search_bar {
+    width: 50%;
+}
+
+.nav_ele {
+    width: 20%;
+    float: left;
+}
+
+.nav_ele nav a {
+    padding-right: 15px;
+}
+
+nav a.active {
+    color: #d32534;
+}
